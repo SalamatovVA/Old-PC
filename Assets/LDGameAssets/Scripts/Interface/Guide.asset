@@ -1,0 +1,35 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 312e06c0a71026246afaeeda874120ba, type: 3}
+  m_Name: Guide
+  m_EditorClassIdentifier: Assembly-CSharp::Guide
+  _guideItems:
+  - sprite: {fileID: -855298285791758126, guid: c9d5ae2da6a463f448246bcdd8a481eb, type: 3}
+    text: 'The game space is divided into 2 parts: the Screen and the environment.'
+  - sprite: {fileID: 6937817954938267909, guid: 9ace197339531ee4eac942811f700ceb, type: 3}
+    text: "There is the \u201Cgame\u201D on the screen, which has 4 elements: the
+      timer, the tap, the slider, and the Pause button. Your task is to prevent the
+      tap from filling up and the slider from running out before the timer ends.
+      To do this, you need to click on the tap and drag the slider up."
+  - sprite: {fileID: -6470460504253458178, guid: ce817694aeaa0b140acb8aa26b10e480, type: 3}
+    text: "The Pause button pauses the \u201CGame\u201D."
+  - sprite: {fileID: -4178046375966092550, guid: 359eb334261e3394f87a71f908b0856b, type: 3}
+    text: The screen can also lag; if a lag occurs during the pause, the pause is
+      lifted. When lagging, 10 seconds are added to the timer.
+  - sprite: {fileID: 4130640169021434097, guid: e25968974f609ca4d9cf101dbc09c3f9, type: 3}
+    text: "In the environment, there are 3 things to keep an eye on: the computer\u2019s
+      battery overheats, and you need to turn on the fan to cool it down."
+  - sprite: {fileID: 3465286685962602723, guid: b77a2cda28437cd489c21a366c8c6cb1, type: 3}
+    text: And the Power Outlet, which periodically sparks and needs to be fixed with
+      a click. Sparking increases the chance of computer lags.
+  - sprite: {fileID: 7028616704906629411, guid: 30f39c9356081fa4a83ff28ba89e9d51, type: 3}
+    text: The houseplant.
